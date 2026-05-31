@@ -1,6 +1,6 @@
 // Arquivo Servidor
 import express, { Request, Response, NextFunction } from 'express';
-import { router } from './routes';
+import { router } from './routes.js';
 import cors from 'cors';
 
 

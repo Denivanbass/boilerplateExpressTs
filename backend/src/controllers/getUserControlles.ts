@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { GetUserService } from "../Services/getUserService"
+import { GetUserService } from "../Services/getUserService.js"
 
 
 class GetUserController {

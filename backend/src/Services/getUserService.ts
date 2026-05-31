@@ -1,6 +1,7 @@
 import { prisma } from "../lib/prisma.js"
 
 
+
 class GetUserService {
     async execute () {
 

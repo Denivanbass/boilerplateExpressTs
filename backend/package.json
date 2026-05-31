@@ -2,14 +2,14 @@
   "name": "hello-prisma",
   "version": "1.0.0",
   "description": "Testando prisma",
-  "main": "index.js",
+  "main": "dist/server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/server.ts",
     "build": "prisma generate && tsc",
     "start": "node dist/server.js"
-},
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -18,7 +18,7 @@
     "@types/node": "^25.9.1",
     "prisma": "^7.8.0",
     "tsx": "^4.22.4",
-    "typescript": "^6.0.3"
+    "typescript": "^5.6.0"
   },
   "dependencies": {
     "@prisma/adapter-mariadb": "^7.8.0",
